@@ -23,3 +23,4 @@ git rm -r --cached node_modules
 git commit -m 'Remove the now ignored directory node_modules'
 git push origin master
 ```
+[Article about global gitignore file](https://zellwk.com/blog/gitignore/)
