@@ -14,3 +14,12 @@ My severe lack of knowledge led to the instructions not actually working but the
 6. Click **Add** then enter local path to project folder (use **Browse** button).
 7. Click **Add repository** button.
 8. Project can now be synced from within VSC.
+
+# Remove **node_modules** folder
+```
+#add 'node_modules' to .gitignore file
+
+git rm -r --cached node_modules
+git commit -m 'Remove the now ignored directory node_modules'
+git push origin master
+```
